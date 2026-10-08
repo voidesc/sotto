@@ -1,0 +1,13 @@
+{
+  "name": "sotto",
+  "owner": {
+    "name": "Aleksey"
+  },
+  "description": "sotto: tool calls as one dim line each in the Claude Code transcript",
+  "plugins": [
+    {
+      "name": "sotto",
+      "source": "./"
+    }
+  ]
+}

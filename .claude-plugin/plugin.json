@@ -1,0 +1,28 @@
+{
+  "name": "sotto",
+  "version": "0.1.0",
+  "description": "Tool calls sotto voce: every one a quiet line with an icon, what Claude did and how it went, no command and no output; /sotto toggles it",
+  "author": {
+    "name": "Aleksey"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "promptAlign": {
+      "title": "Prompt bubble",
+      "type": "string",
+      "description": "Draw your prompts as bubbles: off (the usual rows), right or left",
+      "options": [
+        "off",
+        "right",
+        "left"
+      ],
+      "default": "off"
+    },
+    "promptBorder": {
+      "title": "Prompt outline",
+      "type": "string",
+      "description": "The bubble's outline, when the bubble is on: dim (a faint line in the theme's colour), a colour (a name or #rrggbb), or none",
+      "default": "dim"
+    }
+  }
+}
