@@ -1,6 +1,8 @@
 # sotto
 
-Tool calls sotto voce. A Claude Code mod that turns the transcript into a chat:
+_sotto voce_
+
+A Claude Code mod that turns the transcript into a chat:
 every tool call is one quiet line, and the commands and their output stay out
 of the way.
 
